@@ -56,6 +56,7 @@ print("tax: ", tax_rate)
 print("income: ", income)
 print("finally you get: ", income - (tax_rate / 100) * income)
 
+("Q:2 next page ")
 a = int(input())
 b = int(input())
 c = int(input())
