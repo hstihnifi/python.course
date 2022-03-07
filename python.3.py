@@ -38,8 +38,12 @@ else:
     else:
         print("let me guess, ", end='you chose a number bigger than 10 : ')
 print(val)
-# an example of answer : 11
-# let me guess, you chose a number bigger than 10 : 11
+# answers
+# a) bet you're number is under 10 : 3
+# b) let me guess, you chose a number bigger than 10 : 21
+# c) 6
+# d) 27
+# e) bet you're number is under 10 : -5
 
 
 print("Q:1 next page")
@@ -65,6 +69,8 @@ print("tax: ", tax_rate)
 print("income: ", income)
 print("finally you get: ", income - (tax_rate / 100) * income)
 
+
+("Q:2")
 a = int(input())
 b = int(input())
 c = int(input())
