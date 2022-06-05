@@ -1,29 +1,29 @@
 # """""""""""""""""""""""""""""""""""""""""""""""""Tuples,Dictionary,and Sets Exc:""""""""""""""""
 
-# 1
+# 1)
 # lists are mutable but tuples are immutable
 
-# 2
+# 2)
 # in tuples items can't be modified (can't be removed or added ,and replaced within tuples)
 
-# 3
+# 3)
 # tuples are immutable
 
-# 4
+# 4)
 # ordered
 
-# 5
+# 5)
 a = (1, 2, 3, 4, 5, 6, 7, 8)
 print(a)
 s = _, _, *s, _, _ = a
 print(s)
 
-# 6
+# 6)
 a = (1, 2, 3, 4, 5, 6, 7, 8)
 s = a[3:7]
 print(s)
 
-# 7
+# 7)
 tpl = (7, 10, -3, 18, 6, 10)
 i = list(tpl)
 i[0] = 'x'
@@ -31,13 +31,14 @@ i[5] = 'y'
 tpl = tuple(i)
 print(tpl)
 
-# 8
+# 8)
 def product(*cp):
     Product = 1
     for i in cp:
         Product *= i
     return Product
 
+# 9)
 def zero_sum(i, index, result):
     i = (3, 2, -5)
     result = 0
@@ -52,21 +53,21 @@ def zero_sum(i, index, result):
 # 10)
 # because it associates a key with an item
 
-# 11
+# 11)
 # dict = {"d": }
 # print(dict)
 
-# 12
+# 12)
 # d['fred'] = 44
 
-# 13 & 14
+# 13) & 14)
 # A valid key should be present in dictionary or the interpreter generates a
 # KeyError exception
 
-# 15
+# 15)
 # mutable
 
-# 16
+# 16)
 # a)
 # {3: 0, 5: 1, 10: 1, 8: 2, 15: 4}
 # b)
@@ -76,10 +77,10 @@ def zero_sum(i, index, result):
 # d)
 # 0, 1, 1, 2, 4
 
-# 17
+# 17)
 # ordered(in later versions)
 
-# 18
+# 18)
 from tkinter import Tk, Button
 
 count = 0
@@ -99,17 +100,17 @@ b.pack()
 root.mainloop()
 
 
-# 20
+# 20)
 # In order to use the curly braces for a set, the set must contain at least one element
 
-# 21
+# 21)
 A = set()
 print(type(A))
 
-# 22
+# 22)
 # mutable
 
-# 23
+# 23)
 # a)
 # {2, 19, 20, 7, 10}
 # b) True
@@ -282,7 +283,7 @@ def main():
 
 main()
 
-# 9)
+# 7)
 class Point:
     def __init__(self, x, y):
         self.x = x
@@ -299,7 +300,7 @@ r1 = Point(3, 0)
 p = Point(2, 4)
 print(Point.distance(r1, p))
 
-
+# 9)
 
 class Circle:
     def __init__(self, radius):
